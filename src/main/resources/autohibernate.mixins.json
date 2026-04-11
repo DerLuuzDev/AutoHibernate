@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.derluuz.autohibernate.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "server": [
+    "NetworkPipelineInjector",
+    "ConsoleWakeupMixin",
+    "ServerStatusAccessor",
+    "ServerTickLoopMixin",
+    "PlayerLoginWakeupMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

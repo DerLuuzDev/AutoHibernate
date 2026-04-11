@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "autohibernate",
+  "version": "${version}",
+  "name": "AutoHibernate",
+  "description": "Automatically puts your Minecraft server to sleep when no players are online — zero CPU usage, instant resume.",
+  "authors": [
+    "DerLuuz"
+  ],
+  "contact": {
+    "sources": "https://codeberg.org/DerLuuz/AutoHibernate"
+  },
+  "license": "MIT",
+  "icon": "assets/autohibernate/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "de.derluuz.autohibernate.AutoHibernate"
+    ]
+  },
+  "mixins": [
+    "autohibernate.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "fabric-lifecycle-events-v1": "*",
+    "fabric-command-api-v2": "*"
+  }
+}
