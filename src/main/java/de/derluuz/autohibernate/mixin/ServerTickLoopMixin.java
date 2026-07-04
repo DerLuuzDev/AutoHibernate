@@ -31,7 +31,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public abstract class ServerTickLoopMixin extends ReentrantBlockableEventLoop<TickTask> {
 
     private ServerTickLoopMixin() {
-        super(null);
+        super(null, false);
     }
 
     @Shadow
