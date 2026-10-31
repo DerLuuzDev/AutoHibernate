@@ -1,4 +1,6 @@
 # AutoHibernate
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/autohibernate?logo=modrinth&color=00AF5C&label=downloads)](https://modrinth.com/mod/autohibernate)
+[![Fabric](https://img.shields.io/badge/loader-fabric-blue?logo=fabric)](https://fabricmc.net/)
 
 Automatically puts your Minecraft server to sleep when no players are
 online — zero CPU usage, instant resume.
