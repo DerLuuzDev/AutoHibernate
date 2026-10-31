@@ -31,6 +31,9 @@ You can manually control the hibernation behavior using the
 | `/autohibernate sleep`        | Instantly forces the server to hibernate (until a player joins or it's manually woken).                       |
 | `/autohibernate wake`         | Instantly wakes the server from hibernation.                                                                 |
 
+# Download
+You can download the mod on [Modrinth](https://modrinth.com/mod/autohibernate).
+
 ## ❓ FAQ
 
 **Can I use this on a newer version of Minecraft?**
@@ -45,6 +48,31 @@ different mod loader.
 **Can you port this to Forge/NeoForge/Paper?**
 AutoHibernate may be ported to other mod loaders in the future if time
 permits. For now, it remains a Fabric mod.
+
+# Development
+> [!WARNING]
+> This section is meant for developers who want to contribute to the mod or build it locally.
+> 
+> If you just want to use the mod, you can ignore this and [download the mod](https://modrinth.com/mod/autohibernate) instead.
+
+> [!NOTE]
+> You need to have [Git](https://git-scm.com/) & [JDK 21](https://adoptium.net/temurin/releases?version=21&os=any&arch=any) installed on your computer.
+
+To build the mod locally, you have to:
+1. Clone the repository and navigate to it
+   ```
+   git clone https://github.com/DerLuuzDev/AutoHibernate.git; cd AutoHibernate
+   ``` 
+2. Build the mod using Gradle
+    **Linux**
+    ```
+    ./gradlew build
+    ```
+    **Windows**
+    ```
+    gradlew.bat build
+    ```
+3. The built mod will be located in `build/libs/`
 
 ## 📜 Credits
 
